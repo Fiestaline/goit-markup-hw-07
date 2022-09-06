@@ -38,13 +38,14 @@ body {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    &-nav {
+            display: flex;
+            align-items: center;
+            height: 80px;
+        }
 }
 
-.container-nav {
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
+
 
 .visually-hidden {
     position: absolute;
